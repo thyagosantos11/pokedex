@@ -1,0 +1,39 @@
+body{
+    background-color: brown;
+}
+
+.painel{
+    background-color: red;
+    border: 10px solid rgb(209, 40, 40);
+    height: 500px;
+    width: 400px;
+    border-radius: 10%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-shadow: 3px 3px 15px black;/*sombra*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tela{
+    margin: auto;
+    background-image: aliceblue;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px; /*dar a distancia pra um bootom*/
+    background-size: cover;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149751055.jpg);  
+    border-radius: 10px
+}
+
+.painel button{
+    background-color: #0a0a23;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    .meu-botao:hover {
+  background-color: #0056b3;
+}
+}
